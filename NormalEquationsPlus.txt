@@ -1,0 +1,6 @@
+[1] Normal equations:
+    theta = inv(X^T.X).(X^T.Y)
+
+Adding columns of ones scheme:
+[1.1] h_theta = x.theta, where x = [x1 x2]
+[1.2] h_theta = x.theta, where x = [1 x1 x2]
